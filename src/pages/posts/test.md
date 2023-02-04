@@ -86,9 +86,9 @@ const theme = (() => {
 
 Highlighted <mark>abfvaejkzdvl</mark>
 
-H~2~0
+H<sub>2</sub>0
 
-x^2
+x^2^
 
 https://example.com
 
