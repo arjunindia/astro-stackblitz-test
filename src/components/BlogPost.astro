@@ -1,7 +1,7 @@
 ---
 const {title,url,img,alt} = Astro.props
 ---
-<li><a href={url}><img loading="lazy" src={img} alt={alt} width="50%" /><span>{title}</span> </a></li>
+<li><a rel="prefetch" href={url}><img loading="lazy" src={img} alt={alt} width="50%" /><span>{title}</span> </a></li>
 <style>
   li{
     display:flex;
