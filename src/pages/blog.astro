@@ -2,6 +2,12 @@
   import BaseLayout from "../layouts/BaseLayout.astro"
   import BlogPost from "../components/BlogPost.astro"
   const allPosts = await Astro.glob('../pages/posts/*.md');
+  const posts = allPosts.sort((a,b)=>{
+    const date1 = new Date(a.frontmatter.pubDate);
+    const date2 = new Date(b.frontmatter.pubDate);
+    
+    return date2 - date1;
+  })
 ---
 
 <BaseLayout pageTitle="Blog">
