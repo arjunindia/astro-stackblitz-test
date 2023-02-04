@@ -88,10 +88,10 @@ Highlighted <mark>abfvaejkzdvl</mark>
 
 H<sub>2</sub>0
 
-x^2^
+x<sup>2</sup>
 
 https://example.com
-
+`https://example.com`
   [example.com](https://example.com)
   
 ![alt text](https://i.imgur.com/tqE7wq4.jpeg)
