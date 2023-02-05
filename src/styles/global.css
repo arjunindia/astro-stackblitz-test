@@ -8,6 +8,7 @@ body {
   width: 100%;
   min-height: 100vh;
   max-width: 80ch;
+  min-width: min-content;
   padding: 1rem;
   line-height: 1.5;
 }
@@ -81,10 +82,17 @@ a:focus {
   }
 }
 .dark body {
-  background-color: #0d0950;
   color: #fff;
 }
-
+.dark {
+  background-color: #0d0950;
+}
 .dark .nav-links a {
   color: #fff;
+}
+.dark a {
+  color: aqua;
+}
+img {
+  max-width: 100%;
 }
