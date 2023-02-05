@@ -8,7 +8,6 @@ body {
   width: 100%;
   min-height: 100vh;
   max-width: 80ch;
-  min-width: min-content;
   padding: 1rem;
   line-height: 1.5;
 }
